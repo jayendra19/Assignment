@@ -22,6 +22,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+api_key = os.environ.get('OPENAI_API_KEY')
 
 
 
